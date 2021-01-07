@@ -1,4 +1,4 @@
-import unittest, xmlrunner, json, requests, glob, random, string
+import unittest, xmlrunner, json, requests, glob
 
 def abstract_test(self, data, response):
     self.assertEqual(response.status_code, data['assert']['statusCode'])
